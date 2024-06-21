@@ -52,6 +52,8 @@ public:
 };
 
 int main() {
+    setlocale(LC_ALL, "Russian");
+        
     Password pw1("Abc123!@#");
     Password pw2("password123");
 
